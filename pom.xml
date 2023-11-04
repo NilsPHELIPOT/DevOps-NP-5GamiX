@@ -59,6 +59,16 @@
 			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
+	
+	<settings>
+      <servers>
+        <server>
+          <id>deploymentRepo</id>
+          <username>your_username</username>
+          <password>your_password</password>
+        </server>
+      </servers>
+    </settings>
 
     <build>
         <plugins>
