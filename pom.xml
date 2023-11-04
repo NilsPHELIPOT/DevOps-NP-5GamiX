@@ -64,8 +64,8 @@
       <servers>
         <server>
           <id>deploymentRepo</id>
-          <username>your_username</username>
-          <password>your_password</password>
+          <username>admin</username>
+          <password>sonar</password>
         </server>
       </servers>
     </settings>
